@@ -1,6 +1,6 @@
 console.log("***** Variable Assignment ----> 1 *****");
 console.log("");
-var city = "Pune";
+var city = "New York";
 console.log("My city name is", city);
 
 var bestFriend = "Alex";
@@ -12,7 +12,7 @@ console.log("My country name is", country);
 var school = "S B high school";
 console.log("My school name is", school);
 
-var college = "Zeal College of Engineering";
+var college = "VIT University";
 console.log("My college name is", college);
 console.log("");
 

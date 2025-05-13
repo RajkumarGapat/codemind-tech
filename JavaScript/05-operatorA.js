@@ -16,6 +16,7 @@ function f3() {
 
     var multiResult = strLength * totalWords;
 
+    console.log("");
     console.log(`Given string is: "${str}", Length of the string is: ${strLength} & Total number of words in string is: ${totalWords}`);
     console.log(`Result of string length divided by word count: ${divResult}`);
     console.log(`Result of string length multiplied by word count: ${multiResult}`);

@@ -61,6 +61,3 @@ console.log("");
 console.log("***** Greater than or equal (<=) Operator *****  ");
 console.log(`>= Greater than equal operator between a & b: ${a<=b}`); // true
 console.log(`>= Greater than equal operator between a & d: ${a<=d}`); //true 
-
-
-

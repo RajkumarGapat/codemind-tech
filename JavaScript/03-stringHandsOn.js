@@ -34,5 +34,4 @@ function stringHandsOn() {
   var startsWithHey = trimmedStr.startsWith("Hey");
   console.log(`Does the string start with "Hey"? ${startsWithHey}`);
 }
-
 stringHandsOn();

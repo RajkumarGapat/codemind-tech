@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <!-- Internal CSS -->
+     <style>
+        #content{
+            /* Border Properties */
+            /* border-style: solid;
+            border-color: rgb(42, 165, 50);
+            border-width: 6px; */
+
+            /* for above three lines we can write by using shorthand peoperties */
+            border: solid red 4px;
+
+            /* Padding Properties */
+            /* padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px; */
+
+            /* Shorthand property for padding --> If two values --> padding: top/bottom left/right 
+            --> If four values -> padding: top right bottom left */
+            padding: 10px 20px 10px 20px;
+        }
+
+        #border{
+            width: 500px;
+            border: solid rgb(12, 0, 0) 4px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #padding{
+            width: 500px;
+            border: solid rgb(31, 216, 6) 4px;
+            padding: 20px;
+            box-sizing: content-box;
+        }
+     </style>
+</head>
+<body>
+    <h2>CSS Box Model</h2>
+    <ul>
+        <li id="content">Content</li>
+        <li id="border">Border</li>
+        <li id="padding">Padding</li>
+        <li>Margin</li>
+    </ul> 
+</body>
+</html>

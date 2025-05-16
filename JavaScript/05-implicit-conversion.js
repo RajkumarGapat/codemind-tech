@@ -1,5 +1,4 @@
 console.log("***** Implicit conversion to String *****");
-console.log("");
 let result;
 
 result = '3' + 2;
@@ -38,7 +37,6 @@ console.log(`Reason: false becomes 0, so 4 + 0 = 4`);
 
 console.log("");
 console.log("***** Implicit string conversion to Number *****");
-console.log("");
 result = '4' - '2';
 console.log(`'4' - '2' = ${result}`); 
 console.log(`Reason: Both strings are numeric, so JS converts them to numbers and does 4 - 2 = 2`);
@@ -58,7 +56,6 @@ console.log(`Reason: '4' becomes number, then 4 / 2 = 2`);
 
 console.log("");
 console.log("***** Undefined used with number, boolean or null given NaN *****");
-console.log("");
 result = 4 + undefined;
 console.log(`4 + undefined = ${result}`); 
 console.log("Reason: You can't add number with undefined → Not a Number (NaN)");

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        #container{
+            border: 2px solid gray;
+            width: 600px;
+            height: 300px;
+            margin: 100px auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #one{
+            border: 1px solid orange;
+            background-color: cadetblue;
+        }
+
+        #two{
+            border: 1px solid green;
+            background-color: olive;
+        }
+
+        #three{
+            border: 1px solid yellowgreen;
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <section id="one">ONE</section>
+        <section id="two">TWO</section>
+        <section id="three">THREE</section>
+    </section>
+</body>
+</html>

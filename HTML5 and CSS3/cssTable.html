@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Google font family -->
+     <!--
+      font-family: "Poppins", sans-serif; ------ Table Headers
+      font-family: "Roboto", sans-serif; ---- Main heading
+      font-family: "Lobster Two", sans-serif;  ----- Table Content
+     -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        /* table,tbody,thead,th,tr,td{
+            border: 1px solid orange;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        h2{
+            font-family: "Roboto", sans-serif;
+        }
+        th{
+            font-family: "Poppins", sans-serif;
+        }
+        td{
+            font-family: "Lobster Two", sans-serif;
+        } */
+
+
+
+         /* Center entire content using Flexbox */
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgb(24, 70, 2)
+    }
+    
+    h2 {
+      font-family: "Roboto", sans-serif;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 600px;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    thead th {
+      font-family: "Poppins", sans-serif;
+      background-color: #ff8c00;
+      color: white;
+      padding: 12px;
+      text-align: left;
+    }
+
+    tbody td {
+      font-family: "Lobster Two", sans-serif;
+      padding: 12px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    tbody tr:hover {
+      background-color: #fce4b3; /* Row highlight on hover */
+      transition: background 0.3s;
+    }
+    </style>
+</head>
+<body>
+    <h2>Student List</h2>
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Mobile</th>
+            <th>Email</th>
+            <th>City</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Stew Jobs</td>
+                <td>8522663388</td>
+                <td>stew@gmail.com</td>
+                <td>LA</td>
+            </tr>
+            <tr>
+                <td>Elon Musk</td>
+                <td>8622663388</td>
+                <td>elon@gmail.com</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Bill gates</td>
+                <td>8722663388</td>
+                <td>bill@gmail.com</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>Larry Page</td>
+                <td>8822663388</td>
+                <td>larry@gmail.com</td>
+                <td>UAE</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

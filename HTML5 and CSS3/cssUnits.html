@@ -1,0 +1,30 @@
+<!-- /Interview question on em and rem in this file -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units</title>
+    <style>
+        section{
+            font-size: 10px;
+        }
+        /* em means --> relative to its parent element means (buddy's parent element is section, means 2*10=20) */
+        #buddy{
+            font-size: 2em;
+        }
+
+       /* rem means --> relative to the root element means (hero's root element is html tag, means 2*16=32 (means default font size of html is 16px)) */
+        #hero{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p id="buddy">Hello buddy</p>
+        <p id="hero">Hi, my hero</p>
+    </section>
+</body>
+</html>

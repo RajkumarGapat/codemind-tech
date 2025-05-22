@@ -53,6 +53,15 @@ do {
     console.log("Hello");
 } while (false)
 
+var str = "Hello Buddy";
+var strReverse = ""
+for (let index = str.length-1; index >=0; index--){
+    if(str.charAt(index))
+    strReverse = strReverse + str.charAt(index);
+}
+console.log(strReverse);
+
+
 
 
 
